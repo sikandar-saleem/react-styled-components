@@ -39,6 +39,7 @@ export const SubmitButton = styled(Button).attrs((props) => ({
 }))`
   border: none;
   background-color: tomato;
+
   &:hover {
     background-color: none;
     color: black;

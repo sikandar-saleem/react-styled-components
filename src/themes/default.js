@@ -7,6 +7,7 @@ const theme = {
     background: "#fff",
     text: "#000",
   },
+  fontFamily: "Roboto",
 };
 
 export default theme;

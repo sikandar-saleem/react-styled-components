@@ -10,10 +10,12 @@ import "./app.css";
 import theme from "./themes/default";
 
 import logo from "./assets/icon.png";
+import GlobalStyle from "./styles/global";
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
+      <GlobalStyle />
       <AnimatedReactLogo src={logo} />
       <br />
       <br />
