@@ -24,6 +24,16 @@ export const GradientButton = styled(Button)`
   border: none;
 `;
 
+export const DarkButton = styled(Button)`
+  border: none;
+  color: ${(props) => props.theme.dark.color};
+  background-color: ${(props) => props.theme.dark.background};
+
+  &:hover {
+    color: ${(props) => props.theme.light.text};
+  }
+`;
+
 export const SubmitButton = styled(Button).attrs((props) => ({
   type: "submit",
 }))`
